@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins';
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+  border-collapse: collapse;
+  width: 60%;
+}
+.header{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 3em;
+}
+td{
+  padding: 30px;
+}
+th{
+  padding: 10px;
+  background-color: #6AB187;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.btn{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+}
+button{
+  padding:7px 50px;
+  background-color: #1c4e80;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins';
+  cursor: pointer;
+  border-radius: 3px;
+}
+button:hover{
+  background-color: #25558c;
+}
+.border-container{
+  border: 1px solid black;
+  width: 60%;
+  border-radius: 3px;
+  
+}
+.center-div{
+  display: flex;
+  justify-content: center;
+}
+input, select{
+  padding: 8px;
+  width: 50%;
+}
+.input-grp{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.submit-btn{
+  margin-top: 10px;
+  padding: 15px;
+}
+.action-buttons button {
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+.action-buttons button:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
+
